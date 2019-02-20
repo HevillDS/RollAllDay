@@ -4,50 +4,66 @@
 
 $this->title = 'Roll All Day';
 ?>
-<div class="site-index">
+  <section>
+      <p>
+        Roll All Day - сообщество, которое представляет из себя не только
+        интересную группу VK об экстремальном велосипедном спорте, но так же команду райдеров,
+        единомышлинников и просто хороших парней и дам, коими
+        являются многие участники нашего сообщества.
+      </p>
+    </section> 
+    <section>
+      <article>
+        <a><img src="img/logo/forum.png" alt="forum"></a>
+        <a href="error.html"><p>ФОРУМ</p></a>
+      </article>
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
+      <article>
+        <a><img src="img/logo/market.png" alt="market"></a>
+        <a href="error.html"><p>БАРАХОЛКА</p></a>
+      </article>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+      <article>
+        <a><img src="img/logo/manual.png" alt="manual"></a>
+        <a href="error.html"><p>МАНУАЛЫ</p></a>
+      </article>
 
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
+      <article>
+        <a><img src="img/logo/articles.png" alt="articles"></a>
+        <a href="error.html"><p>СТАТЬИ</p></a>
+      </article>
 
-    <div class="body-content">
+      <article>
+        <a><img src="img/logo/news.png" alt="news"></a>
+        <a href="error.html"><p>НОВОСТИ</p></a>
+      </article>
 
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
+      <article>
+        <a><img src="img/logo/history.png" alt="history"></a>
+        <a href="error.html"><p>ИСТОРИЯ</p></a>
+      </article>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
+      <article>
+        <a><img src="img/logo/media.png" alt="media"></a>
+        <a href="error.html"><p>МЕДИА</p></a>
+      </article>
 
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
-        </div>
-
-    </div>
-</div>
+      <article>
+        <a><img src="img/logo/spotmap.png" alt="spotmap"></a>
+        <a href="error.html"><p>КАРТА СПОТОВ</p></a>
+      </article>
+    </section>
+    <section>
+      <div id="slider">
+        <img src="img/index/slider/1.png" alt="А это я с друзьями)">
+        <img src="img/index/slider/2.png" alt="второе_фото">
+        <img src="img/index/slider/3.png" alt="третье_фото">
+        <img src="img/index/slider/4.png" alt="четвёртое_фото">
+        <img src="img/index/slider/5.png" alt="пятое_фото">
+        <img src="img/index/slider/6.png" alt="шестое_фото">
+      </div>
+      <p>
+        Совместно с участниками нашего сообщества мы творим добро и стараемся 
+        сделать наш мир лучше. Roll All Day - сообщество байков и людей. Мы все - одна семья.
+      </p>
+    </section>
