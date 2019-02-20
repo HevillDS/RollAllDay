@@ -18,7 +18,7 @@
 </head>
 <body>
     <?php
-        $this -> BeginPage();
+        $this -> BeginBody();
     ?>
   <header>
     <nav>
