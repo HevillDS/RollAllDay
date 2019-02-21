@@ -7,41 +7,32 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
-$this->title = 'Login';
+$this->title = 'RAD | Вход';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-login">
-    <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>Please fill out the following fields to login:</p>
-
-    <?php $form = ActiveForm::begin([
-        'id' => 'login-form',
-        'layout' => 'horizontal',
-        'fieldConfig' => [
-            'template' => "{label}\n<div class=\"col-lg-3\">{input}</div>\n<div class=\"col-lg-8\">{error}</div>",
-            'labelOptions' => ['class' => 'col-lg-1 control-label'],
-        ],
-    ]); ?>
-
-        <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
-
-        <?= $form->field($model, 'password')->passwordInput() ?>
-
-        <?= $form->field($model, 'rememberMe')->checkbox([
-            'template' => "<div class=\"col-lg-offset-1 col-lg-3\">{input} {label}</div>\n<div class=\"col-lg-8\">{error}</div>",
-        ]) ?>
-
-        <div class="form-group">
-            <div class="col-lg-offset-1 col-lg-11">
-                <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
-            </div>
-        </div>
-
-    <?php ActiveForm::end(); ?>
-
-    <div class="col-lg-offset-1" style="color:#999;">
-        You may login with <strong>admin/admin</strong> or <strong>demo/demo</strong>.<br>
-        To modify the username/password, please check out the code <code>app\models\User::$users</code>.
-    </div>
-</div>
+<main>
+    <section>
+      <form action="be.php" method="post">
+        <h1>Авторизация</h1>
+        <article>
+          <a href="#"><img src="img/logo/facebook.png" alt="FACEBOOK_logo"></a>
+          <a href="#"><img src="img/logo/google.png" alt="GOOGLE_logo"></a>
+          <a href="#"><img src="img/logo/vk.png" alt="VK_logo"></a>
+        </article>   
+        <input type="text" name="login" placeholder="ЛОГИН" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$">
+        <input type="password" name="password" placeholder="ПАРОЛЬ" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+        <input type="submit" name="vhod" required>     
+      </form>
+    </section>
+    
+    <section>
+      <form action="be.php" method="post">
+        <h1>Регистрация</h1>
+        <input type="text" name="login" placeholder="ЛОГИН" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$"> 
+        <input type="email" name="pochta" placeholder="ПОЧТА" required pattern="^[-\w.]+@([A-z0-9][-A-z0-9]+\.)+[A-z]{2,4}$">
+        <input type="password" name="password" placeholder="ПАРОЛЬ" required pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$">
+        <input type="submit" name="vhod" placeholder="Зарегистрироваться" required>
+      </form>
+    </section>
+  </main>
