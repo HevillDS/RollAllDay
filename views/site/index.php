@@ -1,8 +1,5 @@
 <?php
-
 /* @var $this yii\web\View */
-
-
 $this->registerCssFile('css/index.css');
 $this->title = 'Roll All Day';
 ?>
@@ -57,18 +54,17 @@ $this->title = 'Roll All Day';
       </article>
     </section>
     <section>
-      <!-- <div id="slider">
+      <div id="slider">
         <img src="img/index/slider/1.png" alt="А это я с друзьями)">
         <img src="img/index/slider/2.png" alt="второе_фото">
         <img src="img/index/slider/3.png" alt="третье_фото">
         <img src="img/index/slider/4.png" alt="четвёртое_фото">
         <img src="img/index/slider/5.png" alt="пятое_фото">
         <img src="img/index/slider/6.png" alt="шестое_фото">
-      </div> -->
+      </div>
       <p>
         Совместно с участниками нашего сообщества мы творим добро и стараемся 
         сделать наш мир лучше. Roll All Day - сообщество байков и людей. Мы все - одна семья.
       </p>
     </section>
-
 </main>

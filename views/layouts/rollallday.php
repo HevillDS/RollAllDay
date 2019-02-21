@@ -2,10 +2,8 @@
     use yii\helpers\Html;
     use app\assets\AppAsset;
     AppAsset::register($this);
-
     $this -> BeginPage();
 ?>
-
 <!DOCTYPE html>
 <html lang="<?=Yii::$app -> language ?> ">
 <head>
@@ -14,12 +12,10 @@
   <meta name="viewport" content="width=device-width">
   <link rel="shortcut icon" href="img/logo/logo.png" type="image/x-icon">
   <?=  Html::csrfMetatags() ?>
-  <?php $this -> head();?>
+  <?php $this -> head(); ?>
 </head>
 <body>
-    <?php
-        $this -> BeginBody();
-    ?>
+    <?php $this -> BeginBody(); ?>
   <header>
     <nav>
       <ul>
