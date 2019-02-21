@@ -1,5 +1,5 @@
 main section:first-child {
-    background: url('../img/index/back2.png') no-repeat;
+    background: url('../img/index/background1.png') no-repeat;
     background-size: contain;
     display: -webkit-flex;
     display: flex;

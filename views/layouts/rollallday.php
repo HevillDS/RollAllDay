@@ -27,9 +27,9 @@
         <li><a href="error.html">Барахолка</a></li>
         <li><a href="error.html">Статьи</a></li>
         <li><a href="error.html">Новости</a></li>
-        <li><a href="error.html">Медиа|/a></li>
+        <li><a href="error.html">Медиа</a></li>
         <li><a href="error.html">Споты</a></li>
-        <li><a href="reg.html">Вход/Регистрация</a></li>
+        <li><a href="reg.html">Вход</a></li>
       </ul>
     </nav>
   </header>
