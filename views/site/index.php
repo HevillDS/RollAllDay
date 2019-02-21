@@ -2,8 +2,11 @@
 
 /* @var $this yii\web\View */
 
+
+$this->registerCssFile('css/index.css');
 $this->title = 'Roll All Day';
 ?>
+<main>
   <section>
       <p>
         Roll All Day - сообщество, которое представляет из себя не только
@@ -67,3 +70,5 @@ $this->title = 'Roll All Day';
         сделать наш мир лучше. Roll All Day - сообщество байков и людей. Мы все - одна семья.
       </p>
     </section>
+
+</main>

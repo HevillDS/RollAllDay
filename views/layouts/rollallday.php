@@ -33,10 +33,11 @@
       </ul>
     </nav>
   </header>
-  <main>
-  <?= $content ?>
-  </main>
 
+
+  <?= $content ?>
+
+  
   <footer>
     <section>
       <h1>Полезные ресурсы:</h1>

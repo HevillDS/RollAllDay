@@ -1,0 +1,118 @@
+main section:first-child {
+    background: url('../img/index/back2.png') no-repeat;
+    background-size: contain;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-basis: 55em;
+    flex-basis: 55em;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-content: center;
+    align-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: start;
+    align-content: start;
+  }
+  
+  main section:first-child p {
+    position: absolute;
+    font-size: 2em;
+    border-radius: 0.2em;
+    background-color: rgba(237,216, 99, 0.7);
+    padding: 1.4em;
+    margin-left: 0.3em;
+    height: 10em;
+    width: 20em;
+  }
+  
+  main section:nth-child(2) {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+  }
+  
+  main section:nth-child(2) article {
+    background-color: rgba(208, 189, 90, 0.8);
+    font-size: 1.8em;
+    border-style: inset;
+    border-color: #000;
+    margin-bottom: 0.5em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-basis: 20em;
+    flex-basis: 20em;
+  }
+  
+  main section:nth-child(2) img {
+    width:  5em;
+    height: 5em;
+    margin: 0.2em;
+  }
+  
+  main section:nth-child(2) a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  main section:nth-child(2) article a:hover {
+    color: #696969;
+  }
+  
+  main section:nth-child(2) h1 {
+    font-size: 6.8em;
+  }
+  
+  main section:last-child {
+    background: url('../img/index/back2.png') no-repeat;
+    background-size: contain;
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-basis: 55em;
+    flex-basis: 60em;
+    -webkit-align-content: flex-end;
+    align-content: flex-end;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  #slider {
+   position: relative;
+   width: 35em;
+   margin-left: 2em;
+   margin-bottom: 10em;
+  }
+  
+  #slider img {
+   position: absolute;
+   background-color: #f3f4ef; 
+   border: 1px solid #dedede; 
+   padding: 5px;
+   top: 0;
+   left: 0;
+   max-width: 100%;
+   height: auto;
+  }
+  
+  main section:last-child p {
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(237,216, 99, 0.8);
+  }
