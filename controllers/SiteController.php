@@ -64,15 +64,26 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+
+     /**
+     * Displays about page.
+     *
+     * @return string
+     */
+    public function actionAbout()
+    {
+        return $this->render('about');
+    }
+
     /**
      * Login action.
      *
      * @return Response|string
      */
-    public function actionLogin()
-    {
-        return $this->render('login');
-        $this->layout = '@app/views/layout/headerfooter.php';
+    // public function actionLogin()
+    // {
+    //     return $this->render('login');
+    //     $this->layout = '@app/views/layout/headerfooter.php';
 
-    }
+    // }
 }
